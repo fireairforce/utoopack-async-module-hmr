@@ -8,3 +8,5 @@
 /dist
 .swc
 .turbopack
+pnpm-lock.yaml
+yarn.lock
