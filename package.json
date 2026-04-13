@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "my-first-umi-app",
   "author": "",
   "scripts": {
     "dev": "umi dev",
@@ -10,7 +11,8 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "canary"
+    "umi": "canary",
+    "lodash": "^4.18.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
