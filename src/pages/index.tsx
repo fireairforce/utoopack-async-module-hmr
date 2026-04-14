@@ -1,10 +1,10 @@
 import yayJpg from '@/assets/yay.jpg';
-
+import styles from './index.scss';
 
 const HomePage = () => {
   return (
     <div>
-      <h2>Yay! Welcome to umi!</h2>
+      <h2 className={styles.title}>Yay! Welcome to umi!</h2>
       <p>
         <img src={yayJpg} width="388" />
       </p>
