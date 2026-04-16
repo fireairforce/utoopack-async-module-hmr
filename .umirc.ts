@@ -6,7 +6,5 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
-  utoopack: {
-    root: '../../'
-  },
+  utoopack: {}
 });
